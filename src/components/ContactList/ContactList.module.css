@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+  }
+}
+
+@media (min-width: 769px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Три равных столбца */
+  }
+}
+
+li {
+  padding: 10px;
+}
