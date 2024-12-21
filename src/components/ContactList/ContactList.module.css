@@ -1,19 +1,19 @@
-@media (max-width: 768px) {
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+/* @media (max-width: 768px) { */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+/* } */
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Три равных столбца */
+    grid-template-columns: repeat(3, 1fr); 
   }
-}
+} */
 
 li {
   padding: 10px;
