@@ -1,15 +1,11 @@
-@media (max-width: 768px) {
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 769px) {
-  ul {
+  .list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
